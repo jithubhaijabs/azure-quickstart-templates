@@ -98,9 +98,9 @@
     "devSpokeID": "[resourceId('Microsoft.Network/virtualNetworks/', variables('devSpokeVnetName'))]",
     "prodSpokeID": "[resourceId('Microsoft.Network/virtualNetworks/', variables('prodSpokeVnetName'))]",
     "winVmNicName": "[concat(variables('winJmphostName'), 'NIC')]",
-    "winVmStorageName": "[concat('hubwinvm',uniquestring(resourceGroup().id))]",
+    "winVmStorageName": "jabssadiaglogs",
     "winNsgName": "-NSG-WinJmpHost",
-    "winJmphostPublicIpName": "WinJmphostVmPublicIp"
+    "winJmphostPublicIpName": "PIP-WinJmphostVm"
   },
   "resources": [
     {
