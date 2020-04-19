@@ -3,13 +3,13 @@
    "contentVersion":"1.0.0.0",
   "parameters": {
     "winVmUser": {
-      "value": "GEN-UNIQUE"
+      "value": "jithinp"
     },
     "winVmPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "Jabs@007"
     },
     "winVmDnsPrefix": {
-      "value": "GEN-UNIQUE-13"
+      "value": "jabslabvm"
     }
   }
 }
