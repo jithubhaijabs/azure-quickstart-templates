@@ -99,7 +99,7 @@
     "prodSpokeID": "[resourceId('Microsoft.Network/virtualNetworks/', variables('prodSpokeVnetName'))]",
     "winVmNicName": "[concat(variables('winJmphostName'), 'NIC')]",
     "winVmStorageName": "jabssadiaglogs",
-    "winNsgName": "-NSG-WinJmpHost",
+    "winNsgName": "NSG-WinJmpHost",
     "winJmphostPublicIpName": "PIP-WinJmphostVm"
   },
   "resources": [
